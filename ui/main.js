@@ -59,4 +59,4 @@ submit.onclick=funtion()
   }
   var ul=document.getElementById('namelist');
   ul.innerHTML=list;
-};
+}
