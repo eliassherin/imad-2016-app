@@ -122,10 +122,11 @@ app.get('/ui/main.js', function (req, res) {
 });
 
 var names=[];
-app.get('/submit-name/:name', function (req, res) {
-    var name=req.params.name;
-    names.push(name);
-    res.send(JSON.stringify(names));
+app.get('/submit-name', function (req, res) {
+   res.send("Hi");
+   // var name=req.params.name;
+//    names.push(name);
+ //   res.send(JSON.stringify(names));
     
 });
 
